@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Flex</title>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
 	<style>
 	h3 {
-	  font-family: "Montserrat-bold";
+	  font-family: Montserrat;
 	  font-weight: normal;
 	  text-transform: uppercase;
 	  margin-top: 0;
@@ -55,6 +58,7 @@
 		.listItem .item.col-sm-6:nth-last-child(-n+2) {
 			border-bottom: none;
 		}
+		.atl1 .item.col-sm-12:nth-child(1) { border-right: none; }
 }
 /*
 		.contentGrid .row {
@@ -84,7 +88,7 @@
 <body>
 
 	<div class="header">
-		Bonjour
+		Bonjour ALLO
 	</div>
 	<div class="container contentGrid">
 		<div class="row listItem">
@@ -145,74 +149,52 @@
 		  	</div>
 		  </div>
 		</div>
-
-		<div class="row listItem">
-			4 & 2
-		</div>
-		<div class="row listItem">
-		  <div class="col-md-3 col-xs-6 item">
+<!-- ------------------------------------------ -->
+		<h2>Mauris ullamcorper</h2>
+<!-- ------------------------------------------ -->
+		<div class="row listItem atl1">
+		  <div class="col-md-8 col-sm-12 item">
+		  	<a href="#" class="overlayLink">Item 1</a>
+		  	<div class="item">
+		  		<h3>Nulla et malesuada erat</h3>
+		  		<div class="desc">
+		  			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper, lectus in auctor placerat, turpis metus rhoncus nunc, nec imperdiet elit massa et augue. In nec vestibulum sem turpis duis...
+		  		</div>
+		  	</div>
+		  </div>
+		  <div class="col-md-4 col-sm-6 item">
+		  	<a href="#" class="overlayLink">Item 3</a>
+		  	<div class="item">
+		  		<h3>Pellentesque porttitor enim quis sem rhoncus ultrices</h3>
+		  		<div class="desc">
+		  			Vivamus facilisis quam sit amet ligula vehicula sollicitudin. Sed mauris felis, efficitur ut mi ac, iaculis pretium lorem. In egestas massa neque, vitae mattis nunc commodo vel. Fusce eu orci lacus. F...
+		  		</div>
+		  	</div>
+		  </div>
+		  <div class="col-md-4 col-sm-6 item">
+		  	<a href="#" class="overlayLink">Item 1</a>
 		  	<div class="item">
 		  		<h3>Item 1</h3>
 		  		<div class="desc">
-		  			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur pulvinar leo et vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+						Curabitur non lorem rhoncus, tempor libero ac, dictum arcu. Etiam sit amet sapien consequat, sodales erat vel, egestas lorem. Duis nec condimentum nibh. Maecenas mauris mi, volutpat vel tempus nec, di...
 		  		</div>
 		  	</div>
 		  </div>
-		  <div class="col-md-3 col-xs-6 item">
+		  <div class="col-md-4 col-sm-6 item">
+		  	<a href="#" class="overlayLink">Item 2</a>
 		  	<div class="item">
-		  		<h3>Item 2</h3>
+		  		<h3>Sed at venenatis ipsum</h3>
 		  		<div class="desc">
-		  			In nisi elit, luctus non nisl quis, mollis suscipit ante. Donec fringilla fermentum enim eget finibus.
+		  			Sed feugiat mauris id arcu vulputate consectetur. Fusce convallis eros leo, et tincidunt magna egestas sed. Morbi accumsan sapien eget lorem mollis pulvinar. Quisque lorem mi, bibendum quis congue sit...
 		  		</div>
 		  	</div>
 		  </div>
-		  <div class="col-md-3 col-xs-6 item">
+		  <div class="col-md-4 col-sm-6 item">
+		  	<a href="#" class="overlayLink">Item 3</a>
 		  	<div class="item">
-		  		<h3>Item 3</h3>
+		  		<h3>Curabitur tempus sapien at ante sodales laoreet</h3>
 		  		<div class="desc">
-		  			Donec vel magna congue, facilisis libero a, euismod tellus. Nulla at hendrerit risus. Nam at nibh elementum, condimentum sem a, pharetra velit. Proin lobortis purus vel sem aliquet lacinia.
-		  		</div>
-		  	</div>
-		  </div>
-		  <div class="col-md-3 col-xs-6 item">
-		  	<div class="item">
-		  		<h3>Item 3</h3>
-		  		<div class="desc">
-		  			Donec vel magna congue, facilisis libero a, euismod tellus. Nulla at hendrerit risus. Nam at nibh elementum, condimentum sem a, pharetra velit. Proin lobortis purus vel sem aliquet lacinia.
-		  		</div>
-		  	</div>
-		  </div>
-		  <!-- Add the extra clearfix for only the required viewport -->
-		  <div class="clearfix visible-xs-block"></div>
-		  <div class="col-md-3 col-xs-6 item">
-		  	<div class="item">
-		  		<h3>Item 1</h3>
-		  		<div class="desc">
-		  			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur pulvinar leo et vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-		  		</div>
-		  	</div>
-		  </div>
-		  <div class="col-md-3 col-xs-6 item">
-		  	<div class="item">
-		  		<h3>Item 2</h3>
-		  		<div class="desc">
-		  			In nisi elit, luctus non nisl quis, mollis suscipit ante. Donec fringilla fermentum enim eget finibus.
-		  		</div>
-		  	</div>
-		  </div>
-		  <div class="col-md-3 col-xs-6 item">
-		  	<div class="item">
-		  		<h3>Item 3</h3>
-		  		<div class="desc">
-		  			Curabitur non lorem rhoncus, tempor libero ac, dictum arcu. Etiam sit amet sapien consequat, sodales erat vel, egestas lorem. Duis nec condimentum nibh. Maecenas mauris mi, volutpat vel tempus nec, dictum vel arcu.
-		  		</div>
-		  	</div>
-		  </div>
-		  <div class="col-md-3 col-xs-6 item">
-		  	<div class="item">
-		  		<h3>Item 3</h3>
-		  		<div class="desc">
-		  			Vestibulum nec ex in mi ultricies consequat non vel est. Sed feugiat mauris id arcu vulputate consectetur. Fusce convallis eros leo, et tincidunt magna egestas sed. Morbi accumsan sapien eget lorem mollis pulvinar. Quisque lorem mi, bibendum quis congue sit amet, tincidunt sit amet arcu. Donec mi neque, euismod sed dolor non, venenatis vestibulum urna. Sed fermentum ante tempus mauris lobortis aliquet.
+		  			Donec mi neque, euismod sed dolor non, venenatis vestibulum urna. Sed fermentum ante tempus mauris lobortis aliquet. Curabitur risus nunc, tincidunt at feugiat sit amet, facilisis varius est. Donec cu...
 		  		</div>
 		  	</div>
 		  </div>
@@ -227,22 +209,28 @@
     */
     var $list = $(".listItem"),
     setHeights = function() {
-      $list.each(function(){
-          $items = $list.find("> .item");
-          $items.css("height","auto");
-            var perRow = Math.floor($list.width()/$items.width() );
-            if(perRow == null || perRow < 2) return true;
+      $list.each(function() {
 
-            for(var i = 0, j = $items.length; i < j; i += perRow ) {
-            	var maxHeight = 0,
-                $row          = $items.slice( i, i + perRow );
+	      $items = $list.find("> .item");
 
-                $row.each(function() {
-                    var itemHeight = parseInt( $( this ).outerHeight() );
-                    if ( itemHeight > maxHeight ) maxHeight = itemHeight;
-                });
-                $row.css("height", maxHeight );
-            }
+	      $items.css("height","auto");
+
+        var perRow = Math.floor($list.width()/$items.width() );
+
+        console.log(perRow);
+
+        if(perRow == null || perRow < 2) return true;
+
+        for(var i = 0, j = $items.length; i < j; i += perRow ) {
+        	var maxHeight = 0,
+          $row = $items.slice( i, i + perRow );
+
+          $row.each(function() {
+	          var itemHeight = parseInt( $( this ).outerHeight() );
+	          if ( itemHeight > maxHeight ) maxHeight = itemHeight;
+          });
+          $row.css("height", maxHeight );
+        }
 
       });
     };
